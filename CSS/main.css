@@ -1,0 +1,601 @@
+:root {
+   --laranja: #f04e23;
+}
+
+.cabecalho{
+   width: 100%;
+   margin: auto;
+   position: fixed;
+   z-index: 10;
+   background-color: #ffffff;
+   box-shadow: 0px 1px 5px #8f8f8fb7 ;
+}
+
+.cabecalho .container{
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Nunito Sans', sans-serif;
+   align-items: center;
+   padding: 25px;
+}
+
+.conteudo-cabecalho{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 60%;
+}
+
+.logo-cabecalho{
+   width: 128px;
+   height: 41;
+}
+
+.menu-lista{
+   display: flex;
+   gap: 25px;
+   list-style: none;
+   color: #353a40;
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 1%;
+}
+
+.grupo-bt{
+   width: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.bt-entre{
+   text-decoration: none;
+   color: #353a40;
+}
+
+.bt-cadastre{
+   padding: 15px;
+   background-color: var(--laranja);
+   color: #ffffff;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.bt-cadastre:hover{
+   cursor: pointer;
+   background-color: #9C2100;
+   transition: 350ms;
+}
+
+
+
+
+
+
+
+/* ##################### INTRO ####################### */
+.conteudo-principal{
+   position: absolute;
+}
+
+.intro{
+   background-image:url(../Conteudo/new-home__hero-image--PT-desktop.jpg);
+   height: 795px;
+   width: 100%;
+   color: #ffffff;
+}
+
+.conteudo-intro{
+   width: 90%;
+   margin: 5% auto;
+   padding-top: 5%;
+   display: flex;
+   flex-direction: column;   
+}
+
+.titulo-P-intro{
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 700;
+   font-size: 46px;
+   width: 55%;
+   line-height: 1.2;
+}
+
+.subtitulo-intro{
+   font-size: 26px;
+   font-family: 'Nunito Sans', sans-serif;
+   width: 55%;
+   margin: 2% 0 5%;
+   line-height: 1.2em;
+}
+
+.bt-intro{
+   background-color: var(--laranja);
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: 'Nunito Sans', sans-serif;
+   display: inline-flex;
+   justify-content: space-around;
+   width: 17%;
+   padding: 18px;
+}
+
+.bt-intro:hover{
+   cursor: pointer;
+   background-color: #9C2100;
+   transition: 350ms;
+}
+
+.video-intro{
+   width: 500px;
+   height: 280px;
+   border-radius: 8px;
+   margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+/* ##################### FLUTUANTE ##################### */
+.flutuante{
+   background-color: #7CDBDB;
+   position: relative;
+   width: 32%;
+   top: -200px;
+   right: -800px;
+   font-family: 'Nunito Sans', sans-serif;
+   color: #353a40;
+   padding: 50px;
+}
+
+
+.titulo-flutuante{
+   font-size: 42px;
+   font-weight: 700;
+   margin-bottom: 5%;
+   width: 100%;
+}
+
+.subtitulo-flutuante{
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 1.2em;
+   width: 100%;
+}
+
+.bt-flutuante{
+   background-color: var(--laranja);
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: 'Nunito Sans', sans-serif;
+   display: inline-flex;
+   justify-content: space-around;
+   padding: 18px;
+   margin-top: 10%;
+}
+
+.bt-flutuante:hover{
+   cursor: pointer;
+   background-color: #9C2100;
+   transition: 350ms;
+}
+
+
+
+
+/* ##################### INFO ##################### */
+.info{
+   margin-top: -200px;
+}
+
+.info-conteudo{
+   width: 90%;
+   margin: 0 auto;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo-P-info{
+   width: 80%;
+   font-size: 47px;
+   font-weight: 700;
+   color: #353a40;
+   margin-bottom: 2%;
+}
+
+.texto-info{
+   width: 42%;
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 1.3em;
+   color: #353a40;
+}
+
+
+
+
+
+
+
+
+/* ############### CARD LARANJA ################ */
+
+.card-laranja{
+   background-color:#FE734F;
+   color: #ffffff;
+   width: 90%;
+   margin: 10% auto;
+}
+
+.card-laranja .container{
+   display: flex;
+}
+
+.texto-card-laranja{
+   font-size: 42px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300;
+   margin: 10% auto;
+   width: 42%;
+}
+
+
+
+
+
+
+
+/* ##################### TOPICOS ##################### */
+.topicos{
+   width: 90%;
+   margin: 4% auto;
+   box-shadow: 1px 0px 10px #91919173;
+   padding: 50px 20px 50px 0;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.topicos .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.conteudo-topicos{
+   width: 75%;
+}
+
+.titulo-topicos{
+   font-size: 26px;
+   font-weight: 700;
+   color:#353a40;
+   line-height: 1.8;
+}
+
+.subtitulo-topicos{
+   font-size: 20px;
+   font-weight: 400;
+   color:#353a40;
+   margin-bottom: 1%;
+}
+
+.menu-lateral{
+   width: 15%;
+}
+
+.menu-lateral-lista li{
+   border-bottom: 1px solid #a8a8a8a6;
+   padding: 20px;
+   width: 100%;
+   color: #7c7c7c;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.menu-lateral-lista li:hover{
+   color: #353a40;
+   transition: 250ms;
+   cursor: pointer;
+}
+
+.bt-topicos{
+   background-color: var(--laranja);
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: 'Nunito Sans', sans-serif;
+   display: inline-flex;
+   justify-content: space-around;
+   padding: 18px;
+   margin-top: 5%;
+}
+
+.bt-topicos:hover{
+   cursor: pointer;
+   background-color: #9C2100;
+   transition: 350ms;
+}
+
+
+
+
+
+
+
+
+/* ##################### DEPOIMENTOS ##################### */
+.depoimentos{
+   width: 90%;
+   margin: 0 auto;
+   font-family: 'nunito sans',sans-serif;
+}
+
+.titulo-P-depoimentos{
+   font-size: 47px;
+   color: #353a40;
+   font-weight: 700;
+   text-align: center;
+}
+
+.depoimentos .container{
+   display: flex; 
+   justify-content: space-between;
+   margin-top: 5%;
+   
+}
+
+.card-depoimentos{
+   width: 25%;
+   box-shadow: 0px 8px 8px #d8d8d8af;
+   text-align: center;
+   padding: 60px 30px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.texto-depoimentos{
+   font-size: 16px;
+   color: #353a40;
+   line-height: 1.6em;
+}
+
+.perfil-depoimentos{
+   display: flex;
+   align-items: baseline;
+   text-align: justify;
+   transform: translateY(100%);
+}
+
+.img-perfil{
+   width: 96px;
+   height: 96px;
+   border-radius: 100%;
+}
+
+.titulo-perfil{
+   font-size: 16px;
+   font-weight: 700;
+   color: #353a40;
+   line-height: 2.1em;
+}
+
+.texto-perfil{
+   font-size: 14px;
+   color: #353a40;
+}
+
+
+
+
+
+
+
+/* ##################### FAQ ##################### */
+.duvidas{
+   margin: 10% auto;
+   width: 90%;
+   font-family: 'nunito sans',sans-serif;
+}
+
+.duvidas .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.titulo-P-duvidas{
+   font-size: 47px;
+   font-weight: 700;
+   color: #353a40;
+   width: 30%;
+}
+
+.lista-duvidas{
+   width: 70%;
+}
+
+.li-principal{
+   padding: 30px;
+   border: 1px solid #b8b8b8af;
+   font-size: 17px;
+   color: #353a40;
+}
+
+.li-principal:hover{
+   cursor: pointer;
+   color: #ffffff;
+   background-color: #ff9377;
+   font-weight: 800;
+}
+
+.li-principal_active{
+   cursor: pointer;
+   color: #ffffff;
+   background-color: #ff9377;
+   font-weight: 800;
+}
+
+.teste-li{
+   display: none;
+   border: 1px solid #b8b8b8af;
+   padding: 20px 35px;
+   line-height: 1.4em;
+   background-color: #FDECE7;
+   color: #383838;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ##################### SESSAO CINZA ##################### */
+
+.sessao-cinza{
+   background-color: #464B52;
+   color: #ffffff;
+   font-family: 'nunito sans',sans-serif;
+}
+
+.conteudo-sessao-cinza{
+   text-align: center;
+   padding: 10%;
+}
+
+.titulo-P-sessao-cinza{
+   font-size: 47px;
+   font-weight: 700;
+   line-height: 1.2em;
+}
+
+.texto-sessao-cinza{
+   font-size: 47px;
+   font-weight: 900;
+   line-height: 1.2em;
+}
+
+.bt-sessao-cinza{
+   background-color: var(--laranja);
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: 'Nunito Sans', sans-serif;
+   display: inline-flex;
+   justify-content: space-around;
+   padding: 18px;
+   margin-top: 3%;
+}
+
+.bt-sessao-cinza:hover{
+   cursor: pointer;
+   background-color: #9C2100;
+   transition: 350ms;
+}
+
+
+
+
+
+
+
+
+/* ##################### RODAPE ##################### */
+.rodape{
+   width: 95%;
+   margin: 10% auto 2%;
+   font-family: 'nunito sans',sans-serif;
+   height: auto;
+}
+
+.rodape .container{
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+}
+
+.titulo-sobre-rodape{
+   font-size: 16px;
+   font-weight: 700;
+   color: #000000;
+}
+
+.lista-sobre-rodape li{
+   color: #464B52;
+   margin-top: 15%;
+}
+
+.redes-sociais{
+   margin-top: 4%;
+}
+
+.icon-redes-sociais{
+   margin-top: 2%;
+}
+
+.lista-icon-sociais{
+   display: flex;
+   gap: 5px;
+}
+
+.lista-icon-sociais li{
+   width: 15px;
+   height: 15px;
+   border-radius: 100%;
+   padding: 10px;
+   border: 2px solid #f0f3f7;
+}
+
+.img-icon{
+   width: 15px;
+   height: 15px;
+}
+
+
+
+.linha{
+   border: 1px solid #c7c7c7;
+   border-bottom: none;
+   margin-top: 4%;
+}
+
+.conteudo-final .container {
+   display: flex;
+   justify-content: space-between;
+   width: auto;
+   font-family: 'nunito sans', sans-serif;
+   margin-top: 4%;
+}
+
+.texto-conteudo-final{
+   width: 60%;
+}
+
+.politicas-rodape{
+   text-decoration: none;
+   color: #353a40;
+}
+
+.autorais-rodape{
+   color: #6b7480;
+   line-height: 3.0em;
+}
+
+.endereco{
+   color: #6b7480;
+   line-height: 1.5em;
+}
+
+.img-conteudo-final{
+   width: 120px;
+   height: 42px;
+}
