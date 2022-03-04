@@ -1,0 +1,138 @@
+@media (max-width:425px) {
+   .cabecalho{
+      width: 100%;
+   }
+   
+   .intro{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: auto;
+      width: 100%;
+   }
+   
+   .conteudo-intro{
+      padding: 20% 0;
+      align-items: flex-start;
+      width: 95%;
+   }
+   
+   .subtitulo-intro{
+      width: 90%;
+      font-size: 2.0em;
+   }
+   
+   .bt-intro{
+      width: 60%;
+      font-size: 1.5em;
+      padding: 1.3em;
+   }
+   .video-intro{
+      align-self: center;
+   }
+/* ##########################################################3 */
+   .flutuante{
+      position: initial;
+      width: 100%;
+      padding: 0;
+   }
+   .conteudo-flutuante{
+      width: 90%;
+      padding: 10% 5%;
+   }
+   
+   .bt-flutuante{
+      width: 50%;
+      padding: 1.2em;
+      font-size: 1.5em;
+   }
+/* ##########################################################3 */
+   .info{
+      margin: 10% 0;
+   }
+   
+   .texto-info{
+      width: 100%;
+   }
+/* ##########################################################3 */
+   
+   .card-laranja .container{
+      flex-direction: column;
+   }
+   
+   .texto-card-laranja{
+      width: 80%;
+      margin: 5% auto;
+      font-size: 65px;
+   }
+/* ##########################################################3 */
+   
+   .topicos .container{
+      flex-direction: column;
+   }
+   
+   .menu-lateral{
+      width: 90%;
+   }
+   
+   .conteudo-topicos{
+      width: 90%;
+      margin: 0 auto;
+   }
+/* ##########################################################3 */
+
+   .depoimentos .container{
+      flex-direction: column;
+   }
+   
+   .card-depoimentos{
+      width: 90%;
+      margin-bottom: 40%;  
+   }
+   
+   .texto-depoimentos{
+      font-size: 1.7em;
+   }
+/* ##########################################################3 */
+
+   .duvidas .container{
+      flex-direction: column;
+   }
+   
+   .titulo-P-duvidas{
+      width: 100%;
+      margin-bottom: 10%;
+   }
+   
+   .lista-duvidas{
+      width: 100%;
+   }
+   
+   .li-principal{
+      font-size: 1.9em;
+      padding: 10%;
+   }
+/* ##########################################################3 */
+
+   .bt-sessao-cinza{
+      width: 90%;
+      font-size: 1.6em;
+      padding: 1.2em;
+   }
+/* ##########################################################3 */
+
+   .rodape .container{
+      width: 100%;
+      flex-wrap: wrap;
+      
+   }
+   .sobre-rodape{
+      font-size: 1.6em;
+      width: 45%;
+   }
+   .titulo-sobre-rodape{
+      font-size: 1.1em;
+   }
+   
+   
+}
