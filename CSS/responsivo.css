@@ -1,36 +1,44 @@
-@media (max-width:425px) {
+@media screen and (max-width:425px) {
    .cabecalho{
+     display: none;
+   }
+
+   .conteudo-principal{
       width: 100%;
+      position: relative;
    }
    
    .intro{
-      background-size: cover;
+      background-size: auto;
       background-repeat: no-repeat;
       background-position: center;
-      height: auto;
       width: 100%;
    }
    
    .conteudo-intro{
-      padding: 20% 0;
       align-items: flex-start;
-      width: 95%;
+      width: 90%;
+      padding-top: 20%;
    }
    
+   .titulo-P-intro{
+      width: 100%;
+      font-size: 29px;
+   }
    .subtitulo-intro{
-      width: 90%;
-      font-size: 2.0em;
+      width: 100%;
+      font-size: 1.1em;
    }
    
    .bt-intro{
       width: 60%;
-      font-size: 1.5em;
-      padding: 1.3em;
    }
    .video-intro{
       align-self: center;
+      width: 100%;
+      margin-top: 30%;
    }
-/* ##########################################################3 */
+   /* ##########################################################3 */
    .flutuante{
       position: initial;
       width: 100%;
@@ -38,24 +46,37 @@
    }
    .conteudo-flutuante{
       width: 90%;
-      padding: 10% 5%;
+      padding: 15% 0;
+      margin: 10% auto;
+   }
+
+   .titulo-flutuante{
+      font-size: 23px;
+   }
+
+   .subtitulo-flutuante{
+      font-size: 18px;
    }
    
-   .bt-flutuante{
-      width: 50%;
-      padding: 1.2em;
-      font-size: 1.5em;
-   }
-/* ##########################################################3 */
+
+   /* ##########################################################3 */
    .info{
       margin: 10% 0;
    }
-   
+
+   .titulo-P-info{
+      font-size: 28px;
+   }  
+
    .texto-info{
       width: 100%;
+      font-size: 18px;
    }
-/* ##########################################################3 */
+   /* ##########################################################3 */
    
+   .card-laranja{
+      width: 100%;
+   }
    .card-laranja .container{
       flex-direction: column;
    }
@@ -63,9 +84,9 @@
    .texto-card-laranja{
       width: 80%;
       margin: 5% auto;
-      font-size: 65px;
+      font-size: 35px;
    }
-/* ##########################################################3 */
+   /* ##########################################################3 */
    
    .topicos .container{
       flex-direction: column;
@@ -79,22 +100,29 @@
       width: 90%;
       margin: 0 auto;
    }
-/* ##########################################################3 */
-
+   /* ##########################################################3 */
+   
+   .depoimentos{
+      margin-top: 20%;
+   }
    .depoimentos .container{
       flex-direction: column;
    }
    
    .card-depoimentos{
       width: 90%;
-      margin-bottom: 40%;  
+      margin-bottom: 30%;  
    }
    
-   .texto-depoimentos{
-      font-size: 1.7em;
+   .titulo-P-depoimentos{
+      font-size: 26px;
    }
-/* ##########################################################3 */
 
+   .texto-depoimentos{
+      font-size: 1.0em;
+   }
+   /* ##########################################################3 */
+   
    .duvidas .container{
       flex-direction: column;
    }
@@ -102,6 +130,7 @@
    .titulo-P-duvidas{
       width: 100%;
       margin-bottom: 10%;
+      font-size: 29px;
    }
    
    .lista-duvidas{
@@ -109,29 +138,33 @@
    }
    
    .li-principal{
-      font-size: 1.9em;
+      font-size: 1.0em;
       padding: 10%;
    }
-/* ##########################################################3 */
+   
+   /* ##########################################################3 */
+   
+   .titulo-P-sessao-cinza, .texto-sessao-cinza{
+   font-size: 23px;
+   }
 
+   
    .bt-sessao-cinza{
       width: 90%;
-      font-size: 1.6em;
       padding: 1.2em;
    }
-/* ##########################################################3 */
-
+   /* ##########################################################3 */
+   
    .rodape .container{
       width: 100%;
       flex-wrap: wrap;
-      
+      font-size: 14px;
    }
    .sobre-rodape{
-      font-size: 1.6em;
       width: 45%;
    }
    .titulo-sobre-rodape{
-      font-size: 1.1em;
+      font-size: 16px;
    }
    
    
