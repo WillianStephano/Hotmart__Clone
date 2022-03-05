@@ -1,13 +1,13 @@
 /* FAQ */
 function mostrar() {
-  var item = document.getElementById('li-principal')
   var content = document.getElementById('div-conteudo')
   
-  item.classList.add('li-principal_active')
-  content.style.display = 'block'   
+  if (content.style.display == 'none') {
+    content.style.display = 'block'
+  } else {
+    content.style.display = 'none'
+  }
 }
-
-
 
 
 
