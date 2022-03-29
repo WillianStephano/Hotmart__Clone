@@ -10,7 +10,10 @@ pegar o elemento irmao colocar na variavel que entao ira mudar a classe que most
 elementos.forEach(function (ele) {
   ele.addEventListener("click", function (e) {
     let resposta = e.currentTarget.nextElementSibling;
+    let perguntaAtual = e.currentTarget
     resposta.classList.toggle("mostrar-conteudo");
+    perguntaAtual.classList.toggle("li-principal_active");
+    
   });
 });
 

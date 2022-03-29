@@ -433,6 +433,7 @@
    font-weight: 800;
 }
 
+
 .li-principal_active{
    cursor: pointer;
    color: #ffffff;
@@ -446,15 +447,8 @@
    line-height: 1.4em;
    background-color: #FDECE7;
    color: #383838;
-
    display: none;
 }
-
-
-.conteudo-duvidas{
-   
-}
-
 
 .mostrar-conteudo.conteudo-duvidas{
    display: block;
