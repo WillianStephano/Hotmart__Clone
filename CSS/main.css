@@ -440,16 +440,25 @@
    font-weight: 800;
 }
 
-.teste-li{
-   display: none;
+.conteudo-duvidas{
    border: 1px solid #b8b8b8af;
    padding: 20px 35px;
    line-height: 1.4em;
    background-color: #FDECE7;
    color: #383838;
 
+   display: none;
 }
 
+
+.conteudo-duvidas{
+   
+}
+
+
+.mostrar-conteudo.conteudo-duvidas{
+   display: block;
+}
 
 
 
