@@ -95,10 +95,6 @@ itemMenu[3].addEventListener("click", function (event) {
 
 
 
-
-
-
-
 /* FAQ */
 //Selecionando elementos do HTML
 const faq = document.querySelector(".duvidas");

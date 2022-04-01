@@ -42,15 +42,19 @@
 }
 
 .grupo-bt{
-   width: 15%;
+   width: 18%;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 
 .bt-entre{
+   padding: 15px 20px;
+   background-color: #ffffff;
+   color: #f04e23;
+   font-weight: 700;
    text-decoration: none;
-   color: #353a40;
+   border: 1px solid #f04e23;
 }
 
 .bt-cadastre{
@@ -256,17 +260,19 @@
    width: 90%;
    margin: 4% auto;
    box-shadow: 1px 0px 10px #91919173;
-   padding: 50px 20px 50px 0;
-   font-family: 'Nunito Sans', sans-serif;
+/*    padding: 50px 20px 50px 0;
+ */   font-family: 'Nunito Sans', sans-serif;
 }
 
 .topicos .container{
    display: flex;
    justify-content: space-between;
+   padding: 3% 0;
+
 }
 
 .conteudo-topicos{
-   width: 75%;
+   width: 70%;
 }
 
 .titulo-topicos{
@@ -284,22 +290,35 @@
 }
 
 .menu-lateral{
-   width: 15%;
+   width: 20%;
 }
 
-.menu-lateral-lista li{
+.item-menu-lateral-lista{
    border-bottom: 1px solid #a8a8a8a6;
    padding: 20px;
    width: 100%;
    color: #7c7c7c;
    font-size: 18px;
    font-weight: 700;
+   padding: 15% 0 10% 10%;
 }
 
-.menu-lateral-lista li:hover{
+.item-menu-lateral-lista:last-child{
+border-bottom: none;
+}
+
+.item-menu-lateral-lista:hover{
    color: #353a40;
    transition: 250ms;
    cursor: pointer;
+}
+
+.texto-topicos{
+   line-height: 1.5rem;
+   font-size: 18px;
+   font-weight: 300;
+   color: #353a40;
+   margin-top: 5%;
 }
 
 .bt-topicos{
