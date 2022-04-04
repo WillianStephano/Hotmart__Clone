@@ -41,6 +41,18 @@
    margin-top: 1%;
 }
 
+.menu-lista li{
+   border-bottom: 1px solid transparent;
+
+}
+
+.menu-lista li:hover{
+   transition: 250ms;
+   color: var(--laranja);
+   cursor: pointer;
+   border-bottom: 1px solid var(--laranja);
+}
+
 .grupo-bt{
    width: 18%;
    display: flex;
@@ -247,6 +259,10 @@
    font-weight: 300;
    margin: 10% auto;
    width: 42%;
+}
+
+.img-card-laranja{
+   width: 50%;
 }
 
 
